@@ -1,6 +1,6 @@
 
 /*
- * Duolingo
+ * DuoUnlocker
  * Loon Response Script
  */
 
@@ -109,7 +109,7 @@
         done();
 
     } catch (error) {
-        console.log("Duolingo Error: " + error);
+        console.log("DuoUnlocker Error: " + error);
         done();
     }
 })();
