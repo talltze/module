@@ -1,6 +1,6 @@
 
 /*
- * Duolingo Max
+ * Duolingo
  * Loon Response Script
  */
 
@@ -109,7 +109,7 @@
         done();
 
     } catch (error) {
-        console.log("Duolingo Max Error: " + error);
+        console.log("Duolingo Error: " + error);
         done();
     }
 })();
