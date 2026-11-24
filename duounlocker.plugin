@@ -1,8 +1,8 @@
 
 #!name=Duo🔓Unlocker
 #!desc=激活多邻国Super会员，解锁角色通话功能。
-#!author=talltze
-#!homepage=https://github.com/talltze
+#!author=talltze[https://github.com/talltze]
+#!system=iOS, iPadOS
 #!icon=https://raw.githubusercontent.com/talltze/module/main/duolingo.PNG
 
 [MITM]
