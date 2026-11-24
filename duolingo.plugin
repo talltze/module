@@ -2,10 +2,10 @@
 #!name=Duolingo Unlocker
 #!desc=激活多邻国Max会员，解锁角色通话功能。
 #!author=talltze
-#!icon=https://raw.githubusercontent.com/talltze/module/main/icon.PNG
+#!icon=https://raw.githubusercontent.com/talltze/module/main/duolingo.PNG
 
 [MITM]
 hostname = %APPEND% ios-api-*.duolingo.com, ios-api-*.duolingo.cn, api*.duolingo.com, api*.duolingo.cn
 
 [Script]
-response if ${url} ~= /^https?:\/\/(ios-api-[a-z0-9-]+|api\d+)\.duolingo\.c(n|om)\/2023-05-23\/(batch|users\/[^\/?#]+)(?:[?#]|$)/i then script("https://raw.githubusercontent.com/talltze/module/main/duolingo_max.js") with tag="Duolingo Max", requires_body=true, timeout=120
+response if ${url} ~= /^https?:\/\/(ios-api-[a-z0-9-]+|api\d+)\.duolingo\.c(n|om)\/2023-05-23\/(batch|users\/[^\/?#]+)(?:[?#]|$)/i then script("https://raw.githubusercontent.com/talltze/module/main/duolingo.js") with tag="Duolingo Max", requires_body=true, timeout=120
