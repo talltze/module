@@ -1,7 +1,7 @@
 
 #!name=Duolingo Max
-#!desc=Duolingo Max 会员信息响应修改
-#!author=ChatGPT
+#!desc=Duolingo Max 激活多邻国Max会员
+#!author=talltze
 
 [MITM]
 hostname = %APPEND% ios-api-*.duolingo.com, ios-api-*.duolingo.cn, api*.duolingo.com, api*.duolingo.cn
