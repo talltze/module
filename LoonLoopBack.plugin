@@ -1,5 +1,5 @@
-#!name=Loon🎈LoopBack
-#!desc=用Loon 替代LocalDevVPN，为AltStore提供10.7.0.1本地回环
+#!name=🎈LoopBack
+#!desc=替代LocalDevVPN，为AltStore提供本地回环
 #!author=talltze[https://github.com/talltze]
 #!system=iOS,iPadOS
 #!icon=https://raw.githubusercontent.com/talltze/module/main/duolingo.PNG
