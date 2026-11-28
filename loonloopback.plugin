@@ -1,5 +1,6 @@
 #!name=Loon🎈本地回环
 #!desc=替代LocalDevVPN，为AltStore提供本地回环。
+#!openUrl=https://nsloon.app/docs/General
 #!author=talltze[https://github.com/talltze]
 #!system=iOS,iPadOS
 #!icon=https://raw.githubusercontent.com/talltze/module/main/loonloopback.JPG
