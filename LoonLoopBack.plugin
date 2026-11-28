@@ -1,0 +1,12 @@
+#!name=Loon🎈LoopBack
+#!desc=用Loon 替代LocalDevVPN，为AltStore提供10.7.0.1本地回环
+#!author=talltze[https://github.com/talltze]
+#!system=iOS,iPadOS
+#!icon=https://raw.githubusercontent.com/talltze/module/main/duolingo.PNG
+
+[General]
+include-tun = 10.7.0.1/32
+ipv6-vif = off
+
+[IP Rewrite]
+10.7.0.1 = reflect
